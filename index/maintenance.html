@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Strata Management Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="pg-banner">
+        <h1>Give your Maintenance here!</h1>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="maintenance.html">Maintenance Request</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+        </nav>
+        <h2>Submit a Maintenance Request</h2>
+        <form id="maintenance_form">
+            <label>
+                Surname / Given name:
+                <input type="text" id="name" name="name" required>
+            </label><br><br>
+
+            <label>
+                Unit number:
+                <input type="text" id="unit_number" name="unit_number" required>
+            </label><br><br>
+
+            <label>
+                Describe the Issue:
+                <input type="text" id="issue" name="issue">
+            </label><br><br>
+
+            <div class="button_make_center">
+                <button type="submit">Submit</button>
+            </div>
+
+            <label>
+                
+            </label>
+        </form>
+    </header>
+    <div id="output"></div>
+    <footer>
+        <div id="footer-content">
+            <p id="footer-info">© 2025, Strata Management Website</p>
+        </div>
+    </footer>
+    <script src="javascript/maintenance.js"></script>
+</body>
+</html>

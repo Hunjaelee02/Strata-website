@@ -1,0 +1,36 @@
+
+
+{
+    
+    "rewrites": [
+
+        {
+
+            "source": "/maintenance",
+
+            "destination": "/maintenance.html"
+
+            
+
+
+        }
+
+    ],
+
+    "redirects": [ 
+
+        {
+
+            "source": "/old-docs", 
+
+            "destination": "/documents.html",
+
+            "statusCode": 301
+
+        }
+
+
+    ]
+    
+       
+}
