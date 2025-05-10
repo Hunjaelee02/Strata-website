@@ -1,20 +1,16 @@
 
 
-{
-    
-    "rewrites": [
+{ 
+    "outputDirectory": ".",
 
+    "rewrites": [
         {
 
             "source": "/maintenance",
 
             "destination": "/maintenance.html"
 
-            
-
-
         }
-
     ],
 
     "redirects": [ 
@@ -25,12 +21,8 @@
 
             "destination": "/documents.html",
 
-            "statusCode": 301
+            "permanent": true
 
         }
-
-
-    ]
-    
-       
+    ]      
 }
