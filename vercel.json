@@ -1,9 +1,9 @@
 
 
-{
-    
-    "rewrites": [
+{ 
+    "outputDirectory": "public",
 
+    "rewrites": [
         {
 
             "source": "/maintenance",
@@ -11,7 +11,6 @@
             "destination": "/maintenance.html"
 
         }
-
     ],
 
     "redirects": [ 
@@ -25,9 +24,5 @@
             "permanent": true
 
         }
-
-
-    ]
-    
-       
+    ]      
 }
