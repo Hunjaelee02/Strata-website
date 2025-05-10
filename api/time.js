@@ -6,7 +6,7 @@ export const config = {
 
 export default function handler() {
 
-    const time = new Date().toLocaleString();
+    const time = new Date().toLocaleString('en-AU', { timeZone: 'Australia/Sydney' });
 
     return new Response(`Your current time is: ${time}`, {
 
