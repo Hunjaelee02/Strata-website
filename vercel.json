@@ -1,8 +1,7 @@
 
 
 { 
-    "outputDirectory": "public",
-
+    
     "rewrites": [
         {
 
