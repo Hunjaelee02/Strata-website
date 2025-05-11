@@ -8,7 +8,6 @@ const output = document.getElementById("output");
 form.addEventListener("submit", function(e) {
 
     //"e" just prevents to refresh the site
-    e.preventDefault();
     console.log("Thank you for submitting your issues")
 
     //Gets the values from each issue text input
