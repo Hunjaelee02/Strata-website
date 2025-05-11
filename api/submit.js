@@ -6,7 +6,7 @@ export const config = {
 
 export default async function handler(req) {
 
-    if (req.method === 'post') {
+    if (req.method === 'POST') {
 
         return new Response(null, {
             status: 302,
