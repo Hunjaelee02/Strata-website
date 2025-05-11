@@ -8,18 +8,21 @@ export default async function handler(req) {
 
     if (req.method === 'POST') {
 
-        return new Response(null, {
-            status: 302,
-            headers: {
+        return new Response(`
+            
+            <html>
+                <head>
+                    <meta http-equiv="refresh content="0;url=/thankyou.html" />
+                </head>
+                <body>Redirecting to thank you page...</body>
+            </html>
+            `, {
 
-                Location: '/thankyou.html',
+                status: 200,
+                headers: { 'content-type': 'text/html' },
 
-            },
-        });
+            });
     }
 
-    return new Response('Method Now Allowed', { status: 405 });
-
+    return new Response('Method Not Allowed', {  status: 405 });
 }
-
-    
